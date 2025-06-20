@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OLADIGBO SAMUEL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle" />
+      <span class="slider"></span>
+    </label>
+    <span>Dark Mode</span>
+  </div>
+
+  <div class="card">
+    <img src="Assets/SAM WEB.png" alt="Profile Image" class="avatar" />
+    <input type="text" id="name" class="editable" value="OLADIGBO SAMUEL OPEYEMI" />
+    <input type="text" id="role" class="editable" value="Full Stack Developer" />
+    <textarea id="desc" class="editable">Passionate about Coding and building smooth user experiences.</textarea>
+
+    <button onclick="toggleDetails()">Fun Facts</button>
+
+    <div id="moreInfo" class="more-info hidden">
+      <input type="text" id="Facts" class="editable" value="I got this skill from AFRIMENT">
+      <input type="email" id="email" class="editable" value="oladigboopeyemi@gmail.com" />
+      <input type="text" id="location" class="editable" value="Ibadan, Nigeria" />
+      <input type="text" id="location" class="editable" value="Phone no: 08143804645">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
